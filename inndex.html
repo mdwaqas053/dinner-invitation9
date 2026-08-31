@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Dinner Date ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PAGE 1 -->
+    <div class="container page" id="page1">
+
+        <div class="heart">❤️</div>
+
+        <h1>Hey Beautiful! 😊</h1>
+
+        <p>Will you go for dinner with me?</p>
+
+        <div class="buttons">
+
+            <button id="yesBtn">
+                Yes ❤️
+            </button>
+
+            <button id="noBtn">
+                No 😜
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- PAGE 2 -->
+    <div class="container page hidden" id="page2">
+
+        <div class="heart">🍽️</div>
+
+        <h1>Choose Our Place ❤️</h1>
+
+        <p>Where should we go for dinner?</p>
+
+
+        <div class="restaurant-list">
+
+            <div class="restaurant" data-name="The SKY 360 Revolving Restaurant">
+                <h3>🌆 The SKY 360</h3>
+                <p>The Maple Hotel, Bhopal</p>
+            </div>
+
+
+            <div class="restaurant" data-name="Under The Mango Tree">
+                <h3>🌳 Under The Mango Tree</h3>
+                <p>Bhopal</p>
+            </div>
+
+
+            <div class="restaurant" data-name="Farzi Cafe Bhopal">
+                <h3>🍴 Farzi Cafe</h3>
+                <p>Bhopal</p>
+            </div>
+
+        </div>
+
+
+        <button class="nextBtn" id="restaurantNext">
+            Next ❤️
+        </button>
+
+    </div>
+
+
+    <!-- PAGE 3 -->
+    <div class="container page hidden" id="page3">
+
+        <div class="heart">📅</div>
+
+        <h1>Choose The Date</h1>
+
+        <p>When should we meet?</p>
+
+
+        <input type="date" id="dateInput">
+
+
+        <h2>Choose Time ⏰</h2>
+
+        <div class="time-list">
+
+            <button class="timeBtn">7:00 PM</button>
+
+            <button class="timeBtn">7:30 PM</button>
+
+            <button class="timeBtn">8:00 PM</button>
+
+            <button class="timeBtn">8:30 PM</button>
+
+        </div>
+
+
+        <button class="nextBtn" id="confirmBtn">
+            Confirm Date ❤️
+        </button>
+
+    </div>
+
+
+    <!-- PAGE 4 -->
+    <div class="container page hidden" id="page4">
+
+        <div class="heart">🥰</div>
+
+        <h1>It's A Date! ❤️</h1>
+
+        <p>I'm really happy you said YES!</p>
+
+
+        <div class="confirmation">
+
+            <h3>📍 Restaurant</h3>
+            <p id="finalRestaurant"></p>
+
+
+            <h3>📅 Date</h3>
+            <p id="finalDate"></p>
+
+
+            <h3>⏰ Time</h3>
+            <p id="finalTime"></p>
+
+
+            <h3>🍽️ Dinner</h3>
+            <p>Good food, good conversation & lots of memories ❤️</p>
+
+        </div>
+
+
+        <h2>Can't wait to see you! 🥰❤️</h2>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
